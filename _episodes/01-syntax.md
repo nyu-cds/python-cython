@@ -19,7 +19,7 @@ values) to 64 bits (2<sup>64</sup> - 1 distinct values). One bit is usually dedi
 are half their unsigned counterparts. The following table shows the statements for introducing different integers:
 
 <table border="1">
-<tr><th>Type</th><th>Description</th><tr>
+<tr><th>Type</th><th>Description</th></tr>
 <tr><td><code>char</code></td><td>8-bit signed integer</td></tr>
 <tr><td><code>short</code></td><td>16-bit signed integer</td></tr>
 <tr><td><code>int</code></td><td>32-bit signed integer</td></tr>
@@ -34,7 +34,7 @@ can be represented, which is again a factor of the number of bits used. The foll
 floating point types:
 
 <table border="1">
-<tr><th>Type</th><th>Description</th><tr>
+<tr><th>Type</th><th>Description</th></tr>
 <tr><td><code>float</code></td><td>32-bit floating point</td></tr>
 <tr><td><code>double</code></td><td>64-bit floating point</td></tr>
 <tr><td><code>long double</code></td><td>80-bit floating point</td></tr>
