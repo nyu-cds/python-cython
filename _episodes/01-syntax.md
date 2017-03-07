@@ -15,7 +15,13 @@ Integer
 : C provides a variety of integer types that vary primarily in the size of the integer that can be represented, and if the integer can represent
 negative numbers, or only positive numbers. The size is determined by the number of bits used to store the integer, ranging from 8 bits (512 distinct
 values) to 64 bits (2<sup>64</sup> - 1 distinct values). One bit is usually dedicate to representing negative numbers, so the maxium signed integers 
-are half their unsigned counterparts. The following table shows the statements for introducing different integers:
+are half their unsigned counterparts. 
+
+Floating Point
+: Floating point is a means of representing decimal numbers. In C, these are primarily distinguished by the largest (and smallest) numbers that
+can be represented, which is again a factor of the number of bits used. 
+
+The following table shows the statements for introducing different integer and floating point types:
 
 <table border="1">
 <tr><th>Type</th><th>Description</th></tr>
@@ -24,15 +30,6 @@ are half their unsigned counterparts. The following table shows the statements f
 <tr><td><code>int</code></td><td>32-bit signed integer</td></tr>
 <tr><td><code>long</code></td><td>64-bit signed integer</td></tr>
 <tr><td><code>long long</code></td><td>64-bit signed integer</td></tr>
-</table>
-
-Floating Point
-: Floating point is a means of representing decimal numbers. In C, these are primarily distinguished by the largest (and smallest) numbers that
-can be represented, which is again a factor of the number of bits used. The following table shows the statements for introducing different 
-floating point types:
-
-<table border="1">
-<tr><th>Type</th><th>Description</th></tr>
 <tr><td><code>float</code></td><td>32-bit floating point</td></tr>
 <tr><td><code>double</code></td><td>64-bit floating point</td></tr>
 <tr><td><code>long double</code></td><td>80-bit floating point</td></tr>
