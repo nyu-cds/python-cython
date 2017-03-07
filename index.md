@@ -16,6 +16,7 @@ There are two main benefits of Cython:
 Speed
 : How much performance improves depends very much on the program. Typical Python numerical programs would tend to gain very little as most 
 time is spent in lower-level C anyway. However, for-loop-style programs can improve by many orders of magnitude.
+
 Easy calling into C code
 : One of Cython’s purposes is to allow easy wrapping of C libraries. When writing code in Cython you can call into C code as easily as into 
 Python code.
