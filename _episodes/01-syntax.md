@@ -160,7 +160,7 @@ cdef enum CheeseState:
 </code></pre></td></tr>
 </table>
 
-## Functions
+### Functions
 
 There are two kinds of function definition in Cython:
 
@@ -197,7 +197,7 @@ C functions, on the other hand, can have parameters of any type, since they’re
 Functions declared using `cdef`, like Python functions, will return a `False` value when execution leaves the function body without an explicit 
 return value. This is in contrast to C/C++, which leaves the return value undefined.
 
-## Automatic Type Conversions
+### Automatic Type Conversions
 
 In most situations, automatic conversions will be performed for the basic numeric and string types when a Python object is used in a context 
 requiring a C value, or vice versa. The following table summarises the conversion possibilities.
@@ -211,7 +211,7 @@ requiring a C value, or vice versa. The following table summarises the conversio
 <tr><td>struct, union</td><td></td><td>dict</td></tr>
 </table>
 
-## Statements and Expressions
+### Statements and Expressions
 
 Control structures and expressions follow Python syntax for the most part. When applied to Python objects, they have the same semantics as 
 in Python (unless otherwise noted). Most of the Python operators can also be applied to C values, with the obvious semantics.
