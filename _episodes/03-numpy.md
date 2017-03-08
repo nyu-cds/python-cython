@@ -1,10 +1,15 @@
 ---
 title: "Cython for NumPy Users"
-teaching: 20
-exercises: 0
+teaching: 30
+exercises: 20
 questions:
+- "What support does Cython provide for NumPy?"
 objectives:
+- "Learn different techniques for using NumPy programs with Cython."
 keypoints:
+- "Normal Cython features can be used to improve the performance of NumPy programs."
+- "Cython supports an efficient indexing scheme for NumPy."
+- "Some correctness checking features can be disabled if maximum speed is required."
 ---
 NumPy can be used from Cython in exactly the same manner as in regular Python, however Cython also has a number of features that support 
 fast access to NumPy arrays that can result in significant performance gains. In this section, we will look at how some of these features 
