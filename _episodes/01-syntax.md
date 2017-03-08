@@ -3,8 +3,16 @@ title: "Cython Syntax"
 teaching: 20
 exercises: 0
 questions:
+- "What are the basic C types supported by Cython?"
+- "How are types, variables, and functions declared?"
 objectives:
+- "Understand the structure of Cython programs."
+- "Learn which C data types are supported."
 keypoints:
+- "Cython supports a range of basic C data types."
+- "Variables must be declared with C data types to get a performance boost."
+- "Normal Python functions can be mixed with Cython functions."
+- "Normal Python syntax is used in most places."
 ---
 ### Basic C Types
 
