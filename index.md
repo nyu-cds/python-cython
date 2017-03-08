@@ -21,12 +21,13 @@ Easy calling into C code
 : One of Cython’s purposes is to allow easy wrapping of C libraries. When writing code in Cython you can call into C code as easily as into 
 Python code.
 
-The following sections provide a very brief introduction to Cython. See Cython Language Basics for a more detailed description of the Cython 
-language.
+The following sections provide a very brief introduction to Cython. See the [Cython documentation](http://cython.readthedocs.io/en/latest/) for a more detailed description of the Cython 
+language and how to use Cython.
 
 > ## Prerequisites
 >
 > The examples in this lesson can be run directly using the Python interpreter, using IPython interactively, 
-> or using Jupyter notebooks.
+> or using Jupyter notebooks. Anaconda users will already have Cython installed. You will also need a functioning
+> C compiler to be able to use Cython. See the [Cython installation guide](http://cython.readthedocs.io/en/latest/src/quickstart/install.html) for more details.
 {: .prereq}
 
