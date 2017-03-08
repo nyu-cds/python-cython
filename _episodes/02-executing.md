@@ -3,8 +3,14 @@ title: "Executing Cython Code"
 teaching: 20
 exercises: 0
 questions:
+- "How do I run my Cython program?"
+- "What are the different options for running Cython programs?"
 objectives:
+- "Learn the different ways of running Cython programs."
 keypoints:
+- "Cython programs can be compiled manually."
+- "Cython provides support for IPython to compile and run Cython programs."
+- "The pyximport module allows importing Cython programs directly."
 ---
 ### Manual Compiliation
 
@@ -182,3 +188,24 @@ Now we see the following times:
 {: .output}
 
 Wow, that made a big difference!
+
+### Using `pyximport`
+
+Cython also provides a means of importing Cython programs directly using the `pyximport` module. To use `pyximport`,
+you must first import and initialize the module, then your programs will be able to use the `import` statement as you
+would normaly do for a Python module. The `pyxmodule` is included with Cython.
+
+The `pyximport` module is loadeed and initialiazes as follows:
+
+~~~
+import pyximport
+pyximport.install()
+~~~
+{: .python}
+
+Your program can the load a Cython module (ending in `.pyx`) using the normal import mechanism:
+
+~~~
+import my_cython_module as mcm
+~~~
+{: .python}
